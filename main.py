@@ -37,3 +37,12 @@ unit_to = st.selectbox("Convert to:", ["meters", "kilometers", "grams", "kilogra
 if st.button("Convert"):
     result = convert_units(value, unit_from, unit_to)  
     st.write(f"Converted Value: {result}")  
+st.markdown(
+    """
+    <div style-'text-align:center'>
+    <P> build  by MEER MANAV <a href='https://github.com/Meermanav'> </a>
+    </p>
+    </div>
+    """, 
+    unsafe_allow_html=True,
+    )   
